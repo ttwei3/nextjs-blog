@@ -13,6 +13,8 @@ function PostItem(props) {
 
   const imagePath = `/images/posts/${slug}/${image}`;
   const linkPath = `/posts/${slug}`;
+  console.log('Image Path:', imagePath); // 添加这一行用于调试
+
 
   return(
     <li className={classes.post}>
